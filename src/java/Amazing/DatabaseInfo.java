@@ -108,7 +108,6 @@ public class DatabaseInfo {
         } catch (SQLException ex) {
             Logger.getLogger(DatabaseInfo.class.getName()).log(Level.SEVERE, null, ex);
         }
-        
         return res;
     }
     

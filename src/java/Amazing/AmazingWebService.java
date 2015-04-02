@@ -24,5 +24,6 @@ public class AmazingWebService {
     public List<Buku> getBookList() {
         DatabaseInfo db = new DatabaseInfo();
         return db.getAllBooks();
+        
     }
 }
